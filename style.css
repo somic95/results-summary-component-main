@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+.container {
+    width: 375px;
+    height: auto;
+    margin: 5rem;
+    font-family: "Hanken Grotesk",sans-serif; 
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    
+}
+
+.container .blue_space {
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    color: white;
+    border-radius:  2rem;
+    padding: 2rem 2rem;
+
+}
+
+.container .blue_space .circle_score {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: hsla(241, 72%, 46%, 0);  
+    background-image: linear-gradient(0deg,hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1) );
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .blue_space h1 {
+    font-size: 55px;
+}
+
+.container .blue_space h3,p {
+    color: hsl(241, 100%, 89%);
+}
+
+.container .blue_space h3 {
+    padding-bottom: 2rem;
+}
+
+.container .blue_space h2 {
+    padding: 2rem 2rem;
+
+}
+
+.container .white_space  {
+    background-color: white;
+    padding: 1rem 2rem;
+
+}
+
+
+.container .white_space ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.container .white_space .summary {
+    color: hsl(241, 71%, 20%) ;
+    padding-bottom: 1rem;
+    
+}
+
+.container .white_space p {
+    color: black;
+    font-weight: bold;
+}
+
+.container .badge  {
+    margin-right: 0.5rem;
+}
+
+.container ul li {
+    display: flex;
+}
+
+.container span {
+    color: grey
+}
+
+.container .status-1 {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.container .status-1 b {
+    color:  hsl(0, 100%, 67%);
+}
+
+.container .status-2 {
+    background-color:  hsl(39, 100%, 56%,0.1);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.container .status-2 b {
+    color:  hsl(39, 100%, 56%);
+}
+
+.container .status-3 {
+    background-color: hsl(166, 100%, 37%,0.1);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.container .status-3 b {
+    color: hsl(166, 100%, 37%);
+}
+
+.container .status-4 {
+    background-color: hsl(234, 85%, 45%,0.1);
+    border-radius:0.75rem ;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .btn {
+    background-color: hsl(224, 30%, 27%) ;
+    padding: 1.25rem 2rem;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        display: flex;
+        width: 750px;
+        height: 500px;
+        border-bottom-left-radius:2rem ;
+        border-bottom-right-radius:2rem ;
+    }
+
+    .container .blue_space  {
+        width: 50%;
+        padding: 4rem 0;
+    }
+
+    .container .white_space {
+        width: 50%;
+        border-bottom-right-radius:2rem ;
+        border-top-right-radius: 2rem;
+        padding: 2.5rem 2rem;
+
+    }
+
+    .container .white_space h3 {
+        font-size: 1.5rem;
+    }
+
+    .container .status-4 {
+        background-color: hsl(234, 85%, 45%,0.1);
+        border-radius:0.75rem ;
+        padding: 1.25rem 1rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .container .btn {
+        background-color: hsl(224, 30%, 27%) ;
+        padding: 0.75rem 2rem;
+        color: white;
+        text-align: center;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .container .btn h3 {
+        font-size: 15px;
+        font-weight: 400;
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
